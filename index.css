@@ -30,24 +30,31 @@ body {
 }
 
 .header {
-  background-color: #888;
+  background-color: #bbb;
   padding: 20px;
   text-align: center;
 }
 
+.content {
+  background-color: #fff;
+  padding: 20px;
+}
 
 .grid-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  background-color: #eee;
   padding: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
 .card {
   background-color: #fff;
   border: 1px solid #ddd;
-  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   padding: 15px;
   text-align: center;
 }
@@ -73,4 +80,6 @@ body {
 .footer .social-icon {
   margin: 0 10px;
   display: inline-block;
+  color: white;
+  text-decoration: none;
 }
