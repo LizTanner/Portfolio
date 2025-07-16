@@ -131,10 +131,10 @@
         }
 
         .card img {
-            width: 100%; /* Ensures image fills card width */
+            max-width: 150px; /* Ensures image fills card width */
             height: auto; /* Maintains aspect ratio */
             display: block; /* Removes extra space below image */
-            max-width: 100%; /* Ensures image doesn't overflow */
+            margin: 0 auto 15px auto; /* Ensures image doesn't overflow */
             background-color: #ddd; /* Placeholder background */
         }
 
