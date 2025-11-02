@@ -202,9 +202,9 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(3, 45, 96, 0.9), rgba(3, 45, 96, 0.9)), url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
-    height: 100vh;
+    background-color: var(--dark-color);
     color: var(--white);
+    padding: 200px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -856,6 +856,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
