@@ -72,6 +72,18 @@ body {
     background-color: var(--primary-color);
 }
 
+.header {
+    background-color: var(--dark-color);
+    color: var(--white);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
 .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -844,6 +856,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
