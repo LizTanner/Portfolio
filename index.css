@@ -75,7 +75,7 @@ body {
 .header {
     background-color: var(--dark-color);
     color: var(--white);
-    padding: 120px;
+    padding: 160px;
     text-align: center;
 }
 
@@ -856,6 +856,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
