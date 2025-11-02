@@ -52,7 +52,7 @@ body {
     background-color: var(--primary-color);
 }
 
-.topics-title h3 {
+.topics-title {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -831,6 +831,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
