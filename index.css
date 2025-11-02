@@ -343,6 +343,19 @@ body {
     font-size: 0.8rem;
 }
 
+/* Strategy & Operations bullet list */
+.project-bullets {
+    list-style: disc;
+    list-style-position: inside;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.project-bullets li {
+    padding: 4px 0;
+    font-size: 0.95rem;
+}
+
 .project-links {
     display: flex;
     gap: 15px;
@@ -831,6 +844,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
