@@ -205,7 +205,6 @@ body {
     background-color: var(--dark-color);
     color: var(--white);
     padding: 200px;
-    display: flex;
     align-items: center;
     text-align: center;
 }
@@ -949,6 +948,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
