@@ -204,7 +204,7 @@ body {
 .hero {
     background-color: var(--dark-color);
     color: var(--white);
-    padding: 200px;
+    padding: 200px 0 50px;
     align-items: center;
     text-align: center;
 }
@@ -948,6 +948,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
