@@ -387,7 +387,19 @@ body {
     text-align: center;
     margin-top: 40px;
 }
+/*eLearning dev section */
+.video-card-left {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
 
+.video-card-right {
+    display: flex;
+    flex-direction: row-reverse; /* This flips it */
+    gap: 20px;
+    margin-bottom: 30px;
+}
 /* ADDIE Showcase Cards - Centered, No Images */
 .showcase-container {
     display: flex;
@@ -981,6 +993,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
