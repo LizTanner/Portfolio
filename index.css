@@ -169,10 +169,6 @@ body {
     display: inline-block;
 }
 
-.dropbtn {
-    cursor: pointer;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -181,7 +177,12 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 0px; /* Remove the gap */
+    padding-top: 10px; /* Add padding inside instead */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .dropdown-content a {
@@ -980,6 +981,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
