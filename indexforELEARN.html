@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        .video-card-left .video-player,
+        .video-card-right .video-player,
+        .showcase-container .id-card-image {
+            width: 400px;
+            height: 300px;
+            flex-shrink: 0;
+        }
+        
         .video-card-left .video-player img,
-    .video-card-right .video-player img,
-    .showcase-container .id-card-image img {
-        width: 100%;
-        height: auto;
-        max-width: 400px;
-        aspect-ratio: 4/3;
-        object-fit: cover;
-    }     
+        .video-card-right .video-player img,
+        .showcase-container .id-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
     </style>
     <title>eLearning Development - Liz Tanner Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css">
