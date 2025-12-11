@@ -538,6 +538,67 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
+
+/* Strategy & Operations Page Styles */
+.strat-section-grey {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.strat-section-white {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.strat-text-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.strat-sample-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.strat-thumbnail {
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.strat-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.strat-details h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.strat-details p {
+    line-height: 1.6;
+}
+
+.strat-details a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.strat-details a:hover {
+    text-decoration: underline;
+}
+
 /* Forge, MS app dev */
 .video-thumbnail-card {
     display: flex;
@@ -993,6 +1054,7 @@ body {
     color: var(--secondary-color);
     border-bottom-color: var(--secondary-color);
 }
+
 
 
 
