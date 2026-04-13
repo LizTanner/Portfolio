@@ -267,12 +267,12 @@ body {
 /* Welcome Section */
 .about-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
 }
 
 .about-image img {
-    box-shadow: 5px 4px 5px #333333;
+    box-shadow: 3px 3px 4px #333333;
     max-width: 300px;
     height: auto;
 }
