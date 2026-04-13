@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liz Tanner Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Liz Tanner</div>
+            <ul class="nav-links">
+                <li><a href="index.html"><img src="assets/house.svg" style="height: 20px; vertical-align: middle;"></a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Portfolio Topics</a>
+                    <div class="dropdown-content">
+                        <a href="index.html#blogs">Learning & Development</a>
+                        <a href="index.html#strategy">Strategy & Operations</a>
+                        <a href="index.html#apps">App Development & Training</a>
+                    </div>
+                </li>      
+                <li><a href="index.html#certifications">Certifications</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="header">
+        <div class="container">
+            <h1>Contact Me</h1>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <p>&ensp; ltanner@catelisls.com</p>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <p>&ensp; (405)802-5447</p>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>&ensp; Los Angeles, California</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/lizbtanner/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/LizTanner" target="_blank"  class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+<div class="footer">
+    <p>Connect with me:</p>
+    <a href="https://linkedin.com/in/lizbtanner/" class="social-icon">LinkedIn</a>
+    <a href="https://github.com/LizTanner" class="social-icon">GitHub</a>
+</div>
+
+</body>
+</html>
