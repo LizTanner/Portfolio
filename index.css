@@ -308,11 +308,20 @@ body {
     flex: 1;
     border-right: 2px solid #050a30;
     padding-right: 40px;
+    padding-left: 40px;
 }
+
 .achieve-column {
     flex: 1;
-    padding-left: 10px;
+    padding-left: 40px;
 }
+.edu-achieve-container h5 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 /* Skills Section */
 .skills-container {
     display: grid;
