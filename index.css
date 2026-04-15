@@ -1071,49 +1071,6 @@ body {
     }
 }
 
-/* Certifications Section */
-.certifications-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.certification-category {
-    background-color: var(--white);
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.certification-category:hover {
-    transform: translateY(-5px);
-}
-
-.category-title {
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding-bottom: 10px;
-}
-
-.certification-list {
-    list-style: none;
-}
-
-.certification-list li {
-    padding: 12px 0;
-    border-bottom: 1px solid #eee;
-    font-size: 1rem;
-    color: var(--dark-color);
-}
-
-.certification-list li:last-child {
-    border-bottom: none;
-}
-
 /* Dark Mode Adjustments */
 .dark-mode .certification-category {
     background-color: #2a2a2a;
