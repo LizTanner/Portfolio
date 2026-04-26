@@ -222,6 +222,12 @@ body {
     padding: 40px 0;
 }
 
+.lpwelc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .lpwelc-text-content {
     max-width: 1200px;
     margin: 0 auto;
