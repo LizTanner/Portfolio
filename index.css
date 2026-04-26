@@ -242,7 +242,7 @@ body {
 .hero {
     background-color: var(--dark-color);
     color: var(--white);
-    padding: 130px 0 50px;
+    padding: 120px 0 50px;
     align-items: center;
     text-align: center;
 }
