@@ -213,13 +213,13 @@ body {
 .lpwelc-section-grey {
     background-color: #f3f3f3;
     width: 100%;
-    padding: 40px 0;
+    padding: 40px 0 50px;
 }
 
 .lpwelc-section-white {
     background-color: #ffffff;
     width: 100%;
-    padding: 40px 0;
+    padding: 40px 0 55px;
 }
 
 .lpwelc-container {
