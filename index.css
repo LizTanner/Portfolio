@@ -235,7 +235,19 @@ body {
 }
 
 /* About Page, indexABOUT.html */
-.about-container {
+.about-section-grey {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 40px 0 50px;
+}
+
+.about-section-white {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 40px 0 55px;
+}
+
+.about-sample-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 60px;
