@@ -477,6 +477,16 @@ body {
     text-decoration: underline;
 }
 
+.showcase-card img {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+}
+
 /* LANDING PAGE, LEARNING & DEVELOPMENT SECTION, Blogs LAYOUT */
 .blogs-grid {
     display: grid;
