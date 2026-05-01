@@ -268,7 +268,8 @@ body {
     border-radius: 5px;
 }
 
-.about-text p {
+.about-details p {
+    margin-bottom: 1rem;
     line-height: 1.6;
     font-size: 1.1rem;
 }
