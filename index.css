@@ -677,6 +677,12 @@ body {
 }
 
 /* Forge, MS app dev */
+.forge-section-grey {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 40px 0;
+}
+
 .video-thumbnail-card {
     display: flex;
     gap: 15px;
@@ -849,6 +855,12 @@ body {
 }
 
 /* Contact PAGE, indexCONTACT.html */
+.contact-section-grey {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 40px 0;
+}
+
 .contact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
