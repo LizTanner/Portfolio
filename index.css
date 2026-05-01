@@ -487,6 +487,26 @@ body {
     border-radius: 5px;
 }
 
+.showcase-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.showcase-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+
 /* LANDING PAGE, LEARNING & DEVELOPMENT SECTION, Blogs LAYOUT */
 .blogs-grid {
     display: grid;
