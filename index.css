@@ -626,6 +626,11 @@ body {
     padding: 0 60px;
 }
 
+.strat-text-content p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
 .strat-sample-container {
     max-width: 1200px;
     margin: 0 auto;
