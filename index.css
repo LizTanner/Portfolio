@@ -256,7 +256,7 @@ body {
     align-items: flex-start;
 }
 
-.about-image {
+.about-thumbnail {
     width: 300px;
     flex-shrink: 0;
 }
