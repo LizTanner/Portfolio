@@ -660,8 +660,8 @@ body {
 }
 
 .strat-details p {
+    margin-bottom: 1rem;
     line-height: 1.6;
-    margin-bottom: 15px;
 }
 
 .strat-details a {
