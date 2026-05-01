@@ -290,8 +290,9 @@ body {
     flex: 1;
     padding-left: 40px;
 }
-.edu-achieve-container h5 {
-    font-size: 1.1rem;
+
+.edu-achieve-container h4 {
+    font-size: 1.3rem;
     color: #050a30;
     font-weight: bold;
     margin-bottom: 10px;
