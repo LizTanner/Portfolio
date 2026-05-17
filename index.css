@@ -258,7 +258,7 @@ body {
 }
 
 .about-thumbnail {
-    width: 300px;
+    width: 280px;
     flex-shrink: 0;
 }
 
@@ -271,8 +271,8 @@ body {
 
 .about-details p {
     margin-bottom: 1rem;
-    line-height: 1.6;
-    font-size: 1.1rem;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
 /* indexABOUT.html Page, Education & Achievements Section */
